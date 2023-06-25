@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaForward } from 'react-icons/fa';
 import './Header.css'
 
 const Header = () => {
@@ -27,7 +28,7 @@ const Header = () => {
                         
                     </div>
                     <div className="navbar-end">
-                        <a className=" border text-2xl p-5 px-12 rounded-full hover:bg-[#363636] text-white'">Hire Me</a>
+                        <a className=" border text-2xl p-5 px-12 rounded-full hover:bg-[#2e303c] text-white'"><span className='flex gap-3 items-center'>Hire Me <FaForward></FaForward></span></a>
                     </div>
                 </div>
             </div>

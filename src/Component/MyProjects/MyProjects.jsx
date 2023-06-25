@@ -13,7 +13,8 @@ const MyProjects = () => {
     })
     return (
         <div className='text-white max-w-[1280px] mx-auto pb-[150px]'>
-            <h1 className='text-6xl py-[150px] font-primary font-bold'>My Complete Projects.</h1>
+            <h1 className=' pt-[150px] text-xl font-primary text-[#848792]'>||  My Projects</h1>
+            <h1 className='text-6xl pt-10 pb-[150px] font-primary font-bold'>My Complete Projects.</h1>
             {/* <div className='py-[120px] flex justify-center items-center gap-10'>
                
                

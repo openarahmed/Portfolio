@@ -5,6 +5,8 @@ import MyJob from './MyJob/MyJob';
 import MyProjects from './MyProjects/MyProjects';
 import Services from './Services/Services';
 import SpecialSkills from './SpecialSkills/SpecialSkills';
+import { FaBeer, FaDownload } from 'react-icons/fa';
+
 const Home = () => {
     return (
         <div className=' text-white'>
@@ -16,7 +18,7 @@ const Home = () => {
                         <h1 className='text-[105px] font-bold'>Shakil Ahmed</h1>
                         <h1 className='text-2xl'>MERN Stack Web Developer</h1>
                         <div>
-                            <button className=' text-2xl border mt-12 p-6 px-12 rounded-full bg-[#242734] hover:bg-[#363636] text-white'>Get Resume</button>
+                            <button className=' text-2xl border mt-12 p-6 px-12 rounded-full bg-[#242734] hover:bg-[#2e303c] text-white'><span className='flex gap-4 items-center'>Get Resume <FaDownload></FaDownload></span></button>
                         </div>
                     </div>
                     <div className=''>
