@@ -1,12 +1,14 @@
 import React from 'react';
 import { FaForward } from 'react-icons/fa';
 import './Header.css'
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 const Header = () => {
     return (
-        <div className='bg-[#242734] font-primary text-white max-w-[1280px] mx-auto'>
+        <div id='arrowScroll' className='bg-[#242734]  font-primary text-white max-w-[1480px] mx-auto'>
             <div className=''>
-                <div className="navbar pt-20">
+                <div className="navbar  pt-10">
                     <div className="navbar-start">
                         <div className="dropdown">
                             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -18,17 +20,20 @@ const Header = () => {
 
                             </ul>
                         </div>
-                        <a href='' className="hedermain text-5xl">Shakil</a>
+                        <Link to='/' className="hedermain text-5xl">Shakil</Link>
                     </div>
                     <div className="navbar-center text-[#848792] flex gap-20 text-[25px]">
-                        <a className='hedermain' href="">Home</a>
-                        <a className='hedermain' href="">Service</a>
-                        <a className='hedermain' href="">Blog</a>
-                        <a className='hedermain' href="">Contact</a>
-                        
+                        <Link className='hedermain' to='/'>Home</Link>
+                        <Link className='hedermain' to='#services'>Service</Link>
+                        <Link className='hedermain' to='#projetcs'>Projects</Link>
+                        <Link className='hedermain' to='/blog'>Blog</Link>
+                        <Link className='hedermain' to='/contact'>Contact</Link>
+                        <div className="flex-none">
+                            
+                        </div>
                     </div>
                     <div className="navbar-end">
-                        <a className=" border text-2xl p-5 px-12 rounded-full hover:bg-[#2e303c] text-white'"><span className='flex gap-3 items-center'>Hire Me <FaForward></FaForward></span></a>
+                        <Link to='/contact' className=" border text-2xl p-5 px-12 rounded-full hover:bg-[#2e303c] text-white'"><span className='flex gap-3 items-center'>Hire Me <FaForward></FaForward></span></Link>
                     </div>
                 </div>
             </div>
