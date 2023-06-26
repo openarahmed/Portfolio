@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import './Contact.css'
 
@@ -27,11 +27,17 @@ const Contact = () => {
 
                     <div className='bg-[#242734] mt-20'>
                         <div className='h-[300px] shadow-lg w-[160px] text-2xl p-4'>
-                            <h1 className=''>Follow Me</h1>
-                            <div className='flex gap-5 text-[200px]'>
-                                <FaFacebook></FaFacebook >
-                                <FaInstagram></FaInstagram>
-                                <FaTwitter></FaTwitter>
+                            <h1 className='text-2xl'>Follow Me</h1>
+                            <div className='flex gap-5 text-[60px] mt-10'>
+                                <div className='  w-20 h-20 grid justify-center items-center rounded-full hover:text-black hover:bg-white'>
+                                    <FaFacebook></FaFacebook>
+                                </div>
+                                <div className='  w-20 h-20 grid justify-center items-center rounded-full hover:text-black hover:bg-white'>
+                                    <FaInstagram></FaInstagram>
+                                </div>
+                                <div className='  w-20 h-20 grid justify-center items-center rounded-full hover:text-black hover:bg-white'>
+                                    <FaLinkedin></FaLinkedin>
+                                </div>
                             </div>
                         </div>
                     </div>

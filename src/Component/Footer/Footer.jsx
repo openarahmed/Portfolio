@@ -28,20 +28,23 @@ const Footer = () => {
                             <div className='border  w-20 h-20 grid justify-center items-center rounded-full hover:text-black hover:bg-white'>
                                 <BiLogoGmail></BiLogoGmail>
                             </div>
-                            <h1 className='text-4xl  gap-9 font-primary'>communicates.shakil@gmail.com</h1>
+                            <Link ><h1 className='text-4xl  gap-9 font-primary'>communicates.shakil@gmail.com</h1></Link>
+                            
                         </div>
                         <div className='flex items-center gap-3 text-3xl'>
-                            <div className='border  w-20 h-20 grid justify-center items-center rounded-full hover:text-black hover:bg-white'>
+                            <Link to='https://www.facebook.com/communicate.shakil'><div className='border  w-20 h-20 grid justify-center items-center rounded-full hover:text-black hover:bg-white'>
                                 <FaFacebook></FaFacebook>
-                            </div>
+                            </div></Link>
+                           
                             <div className='border  w-20 h-20 grid justify-center items-center rounded-full hover:text-black hover:bg-white'>
                                 <FaInstagram></FaInstagram>
                             </div>
-                            <div className='border  w-20 h-20 grid justify-center items-center rounded-full hover:text-black hover:bg-white'>
+                           <Link to='https://www.linkedin.com/in/communicates-shakil/'> <div className='border  w-20 h-20 grid justify-center items-center rounded-full hover:text-black hover:bg-white'>
                                 <FaLinkedin></FaLinkedin>
-                            </div>
+                            </div></Link>
                             <div className='border  w-20 h-20 grid justify-center items-center rounded-full hover:text-black hover:bg-white'>
                                 <FaTwitter></FaTwitter>
+                                
                             </div>
                         </div>
                     </div>

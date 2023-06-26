@@ -1,0 +1,26 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .hover-text {
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); /* Customize the background color */
+    color: #fff; /* Customize the text color */
+    padding: 10px; /* Customize the padding */
+    font-size: 16px; /* Customize the font size */
+    /* pointer-events: none; */
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-container:hover .hover-text {
+    opacity: 5;
+  }
+  

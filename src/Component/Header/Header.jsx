@@ -2,6 +2,7 @@ import React from 'react';
 import { FaForward } from 'react-icons/fa';
 import './Header.css'
 import { HashLink as Link } from 'react-router-hash-link';
+import logo from './../../../asset/logo shakil.png'
 
 
 const Header = () => {
@@ -20,7 +21,7 @@ const Header = () => {
 
                             </ul>
                         </div>
-                        <Link to='/' className="hedermain text-5xl">Shakil</Link>
+                        <Link to='/' className="hedermain text-5xl"><img className='w-[230px]' src={logo} alt="" /></Link>
                     </div>
                     <div className="navbar-center text-[#848792] flex gap-20 text-[25px]">
                         <Link className='hedermain' to='/'>Home</Link>
