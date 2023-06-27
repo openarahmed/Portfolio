@@ -8,12 +8,12 @@ const AboutMeDetails = () => {
             <div className='max-w-[1480px] mx-auto'>
                 <div className='text-center mb-16'>
                     <h1 className='pt-[60px] mb-10 font-primary text-xl text-[#848792]'>|| About Me</h1>
-                    <h1 className='text-6xl  font-primary font-bold'>About Me</h1>
+                    <h1 className='text-4xl md:text-6xl  font-primary font-bold'>About Me</h1>
                     <div> 
                         <Link to='https://drive.google.com/file/d/1gWNzyJrELswogpJ7Dn-Aj6J0hOiPlDFV/view?usp=sharing'> <button className=' text-2xl border mt-12 p-6 px-12 rounded-full bg-[#242734] hover:bg-[#2e303c] text-white'><span className='flex gap-4 items-center'>Get Resume <FaDownload></FaDownload></span></button></Link>
                     </div>
                 </div>
-                <div className='max-w-[850px] mx-auto pb-32'>
+                <div className='max-w-[850px] mx-auto px-3 md:px-0 pb-32'>
                     <p>
                         Hello, I'm Shakil Ahmed. It's a pleasure to meet  you. As an aspiring MERN stack developer, I'm excited to embark on this journey of web development. While I may not have professional experience yet, I am dedicated to learning and growing in this field.
                     </p>

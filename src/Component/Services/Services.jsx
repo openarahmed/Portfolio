@@ -11,7 +11,7 @@ const Services = () => {
         <div className='text-white max-w-[1480px] px-5 md:px-0 mx-auto'>
             <h1 className='pt-10 md:pt-[150px] mb-10 font-primary text-xl text-[#848792]'>|| My Skills</h1>
             <h1 className='text-3xl md:text-6xl  font-primary font-bold'>My Skills and Tools.</h1>
-            <div className='py-[120px] flex justify-center items-center gap-10'>
+            <div className='py-5 md:py-[120px] text-center md:text-start flex justify-center items-center gap-10'>
                 {/* <img src={fav} alt="" /> */}
 
                 <div className='md:flex gap-5'>
@@ -30,7 +30,7 @@ const Services = () => {
                         </div>
 
                     </div>
-                    <div className=" w-[350px] h-[500px] bg-[#242734] shadow-xl my-10 md:my-0">
+                    <div className=" w-[350px] h-[500px] bg-[#242734] shadow-xl my-5 md:my-0">
                         <div className="card-body">
                             <h2 className="font-primary text-4xl mb-5 mt-5 ">Comfortable</h2>
                             <hr className='mb-5'/>
@@ -52,7 +52,7 @@ const Services = () => {
                         </div>
 
                     </div>
-                    <div className=" w-[350px] h-[500px] bg-[#242734] shadow-xl mt-10 md:mt-0">
+                    <div className=" w-[350px] h-[500px] bg-[#242734] shadow-xl mt-5 md:mt-0">
                         <div className="card-body">
                             <h2 className="font-primary text-4xl mb-5 mt-5">Tools</h2>
                             <hr className='mb-5'/>

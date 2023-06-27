@@ -39,7 +39,7 @@ const Header = () => {
 
                     </div>
                     <div className="navbar-end">
-                        <Link to='/contact' className=" border text-2xl p-5 mdpx-12 rounded-full hover:bg-[#2e303c] text-white'"><span className='flex gap-3 items-center'>Hire Me <FaForward></FaForward></span></Link>
+                        <Link to='/contact' className=" border text-xl p-1 md:text-2xl md:p-5 md:px-12 rounded-full hover:bg-[#2e303c] text-white'"><span className='flex gap-3 items-center'>Hire Me <FaForward></FaForward></span></Link>
                     </div>
                 </div>
             </div>
