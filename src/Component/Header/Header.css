@@ -6,3 +6,15 @@
 background-color: #2e303c;
 border-radius: 5px;
 }
+.navMain{
+    display: block;
+  
+
+}
+@media only screen and (max-width: 700px) {
+    .navMain{
+        display: none;
+        
+        
+    }
+  }

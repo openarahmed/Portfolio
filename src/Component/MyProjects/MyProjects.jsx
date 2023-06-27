@@ -27,8 +27,8 @@ const MyProjects = () => {
     const text = 'shakil ahmed'
     return (
         <div className='text-white max-w-[1480px] mx-auto pb-[150px]'>
-            <h1 id='projetcs' className=' pt-[150px] text-xl font-primary text-[#848792]'>||  My Projects</h1>
-            <h1 className='text-6xl pt-10 pb-[150px] font-primary font-bold'>My Complete Projects.</h1>
+            <h1 id='projetcs' className=' pt-5 md:pt-[150px] md:text-xl font-primary text-[#848792]'>||  My Projects</h1>
+            <h1 className='text-3xl md:text-6xl pt-10 pb-[150px] font-primary font-bold'>My Complete Projects.</h1>
             {/* <div className='py-[120px] flex justify-center items-center gap-10'>
                
                
@@ -36,7 +36,7 @@ const MyProjects = () => {
             </div> */}
             <div ref={sliderRef} className="keen-slider">
                 <div className="keen-slider__slide number-slide1">
-                    <div className="image-container w-[700px] h-[450px] bg-[#292C39] shadow-xl">
+                    <div className="image-container md:w-[700px] md:h-[450px] bg-[#292C39] shadow-xl">
                         <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className=" ">
                             <img className='rounded-md image' src={one} alt="" />
                             {isHovered && <div className="hover-text">
@@ -59,13 +59,13 @@ const MyProjects = () => {
                         </div>
                     </div>
                     <div className='flex justify-center items-center gap-9'>
-                        <Link to='https://pirme-sports.web.app/'> <h1 className='text-xl text-center font-primary mt-4'>Visit Live Site</h1></Link>
-                        <Link to='https://github.com/shakilcodes/prime-sports-client'> <h1 className='text-xl text-center font-primary mt-4'>Client Site Code</h1></Link>
-                        <Link to='https://github.com/shakilcodes/prime-sports-server'> <h1 className='text-xl text-center font-primary mt-4'>Server Site Code</h1></Link>
+                        <Link to='https://pirme-sports.web.app/'> <h1 className='md:text-xl text-center font-primary mt-4'>Visit Live Site</h1></Link>
+                        <Link to='https://github.com/shakilcodes/prime-sports-client'> <h1 className='md:text-xl text-center font-primary mt-4'>Client Site Code</h1></Link>
+                        <Link to='https://github.com/shakilcodes/prime-sports-server'> <h1 className='md:text-xl text-center font-primary mt-4'>Server Site Code</h1></Link>
                     </div>
                 </div>
                 <div className="keen-slider__slide number-slide2">
-                <div className="image-container w-[700px] h-[450px] bg-[#292C39] shadow-xl">
+                <div className="image-container md:w-[700px] md:h-[450px] bg-[#292C39] shadow-xl">
                         <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className=" ">
                             <img className='rounded-md image' src={two} alt="" />
                             {isHovered && <div className="hover-text">
@@ -87,13 +87,13 @@ const MyProjects = () => {
                         </div>
                     </div>
                     <div className='flex justify-center items-center gap-9'>
-                        <Link to='https://toy-kingdom-11ef9.web.app/'> <h1 className='text-xl text-center font-primary mt-4'>Visit Live Site</h1></Link>
-                        <Link to='https://github.com/shakilcodes/toy-kingdom-client'> <h1 className='text-xl text-center font-primary mt-4'>Client Site Code</h1></Link>
-                        <Link to='https://github.com/shakilcodes/toy-kingdom-server'> <h1 className='text-xl text-center font-primary mt-4'>Server Site Code</h1></Link>
+                        <Link to='https://toy-kingdom-11ef9.web.app/'> <h1 className='md:text-xl text-center font-primary mt-4'>Visit Live Site</h1></Link>
+                        <Link to='https://github.com/shakilcodes/toy-kingdom-client'> <h1 className='md:text-xl text-center font-primary mt-4'>Client Site Code</h1></Link>
+                        <Link to='https://github.com/shakilcodes/toy-kingdom-server'> <h1 className='md:text-xl text-center font-primary mt-4'>Server Site Code</h1></Link>
                     </div>
                 </div>
                 <div className="keen-slider__slide number-slide3">
-                <div className="image-container w-[700px] h-[450px] bg-[#292C39] shadow-xl">
+                <div className="image-container md:w-[700px] md:h-[450px] bg-[#292C39] shadow-xl">
                         <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className=" ">
                             <img className='rounded-md image' src={one} alt="" />
                             {isHovered && <div className="hover-text">
@@ -116,13 +116,13 @@ const MyProjects = () => {
                         </div>
                     </div>
                     <div className='flex justify-center items-center gap-9'>
-                        <Link> <h1 className='text-xl text-center font-primary mt-4'>Visit Live Site</h1></Link>
-                        <Link> <h1 className='text-xl text-center font-primary mt-4'>Client Site Code</h1></Link>
-                        <Link> <h1 className='text-xl text-center font-primary mt-4'>Server Site Code</h1></Link>
+                        <Link> <h1 className='md:text-xl text-center font-primary mt-4'>Visit Live Site</h1></Link>
+                        <Link> <h1 className='md:text-xl text-center font-primary mt-4'>Client Site Code</h1></Link>
+                        <Link> <h1 className='md:text-xl text-center font-primary mt-4'>Server Site Code</h1></Link>
                     </div>
                 </div>
                 <div className="keen-slider__slide number-slide4">
-                <div className="image-container w-[700px] h-[450px] bg-[#292C39] shadow-xl">
+                <div className="image-container md:w-[700px] md:h-[450px] bg-[#292C39] shadow-xl">
                         <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className=" ">
                             <img className='rounded-md image' src={one} alt="" />
                             {isHovered && <div className="hover-text">
@@ -145,9 +145,9 @@ const MyProjects = () => {
                         </div>
                     </div>
                     <div className='flex justify-center items-center gap-9'>
-                        <Link> <h1 className='text-xl text-center font-primary mt-4'>Visit Live Site</h1></Link>
-                        <Link> <h1 className='text-xl text-center font-primary mt-4'>Client Site Code</h1></Link>
-                        <Link> <h1 className='text-xl text-center font-primary mt-4'>Server Site Code</h1></Link>
+                        <Link> <h1 className='md:text-xl text-center font-primary mt-4'>Visit Live Site</h1></Link>
+                        <Link> <h1 className='md:text-xl text-center font-primary mt-4'>Client Site Code</h1></Link>
+                        <Link> <h1 className='md:text-xl text-center font-primary mt-4'>Server Site Code</h1></Link>
                     </div>
                 </div>
             </div>

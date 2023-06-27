@@ -18,10 +18,10 @@ const Blog = () => {
                 <h1 className='pt-12 text-center text-xl font-primary text-[#848792]'> Blog  ||  Blog List</h1>
                 </div>
                 <div className=''>
-                    <div className='bg-[#242734]  h-[280px] w-[1000px] mx-auto mt-20'>
+                    <div className='bg-[#242734] p-2 md:p-0  md:h-[280px] md:w-[1000px] mx-auto mt-20'>
                         <div className='blogmain items-center px-10'>
                             <div className='mt-12'>
-                                <img className='w-[180px] h-[200px]' src={token} alt="" />
+                                <img className='md:w-[180px] mb-5 md:mb-0 md:h-[200px]' src={token} alt="" />
                             </div>
                             <div className=''>
                                 <h1 className='flex text-xl gap-8'>
@@ -37,7 +37,7 @@ const Blog = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='bg-[#242734] h-[280px] w-[1000px] mx-auto mt-20 blogmain items-center px-10 '>
+                    <div className='bg-[#242734] p-2    md:h-[280px] md:w-[1000px] mx-auto mt-20 blogmain items-center px-10 '>
                         <div className='bg-'>
                             <img className='w-[180px] h-[200px]' src={sql} alt="" />
                         </div>
@@ -54,7 +54,7 @@ const Blog = () => {
                             </h1>
                         </div>
                     </div>
-                    <div className='bg-[#242734] h-[280px] w-[1000px] mx-auto mt-20 blogmain items-center px-10'>
+                    <div className='bg-[#242734] p-2   md:h-[280px] md:w-[1000px] mx-auto mt-20 blogmain items-center px-10'>
                         <div className='bg-'>
                             <img className='w-[180px] h-[200px]' src={express} alt="" />
                         </div>
@@ -71,7 +71,7 @@ const Blog = () => {
                             </h1>
                         </div>
                     </div>
-                    <div className='bg-[#242734] h-[280px] w-[1000px] mx-auto mt-20 blogmain items-center px-10'>
+                    <div className='bg-[#242734]  p-2  md:h-[280px] md:w-[1000px] mx-auto mt-20 blogmain items-center px-10'>
                         <div className='bg-'>
                             <img className='w-[180px] h-[200px]' src={mongo} alt="" />
                         </div>

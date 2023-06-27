@@ -1,0 +1,11 @@
+.hideSpcial{
+    display: block;
+}
+
+@media only screen and (max-width: 700px) {
+    .hideSpcial{
+        display: none;
+        
+        
+    }
+  }

@@ -5,10 +5,10 @@ import fav from './../../../asset/web-development-svgrepo-com.svg'
 
 const MyJob = () => {
     return (
-        <div className='text-white max-w-[1480px] mx-auto'>
-            <h1 id='services' className='pt-[150px] text-xl font-primary text-[#848792]'>||  Services Provide</h1>
-            <h1 className='text-6xl mt-10  font-primary font-bold'>Service Provide For My Clients.</h1>
-            <div className='py-[120px] flex justify-center items-center gap-10'>
+        <div className='text-white max-w-[1480px] mx-auto px-3 md:px-0'>
+            <h1 id='services' className='pt-5 md:pt-[150px] text-xl font-primary text-[#848792]'>||  Services Provide</h1>
+            <h1 className='text-3xl md:text-6xl mt-10  font-primary font-bold'>Service Provide For My Clients.</h1>
+            <div className='py-[120px] md:flex justify-center items-center gap-10'>
                 <div className=" w-[350px] h-[500px] bg-[#242734] shadow-xl">
                     <div className="card-body">
                         <h2 className="text-3xl font-primary mt-1">Web Application Development</h2>
@@ -17,7 +17,7 @@ const MyJob = () => {
 
                     </div>
                 </div>
-                <div className=" w-[350px] h-[500px] bg-[#242734] shadow-xl">
+                <div className=" w-[350px] h-[500px] bg-[#242734] shadow-xl my-5 md:my-0">
                     <div className="card-body">
                         <h2 className="text-3xl font-primary mt-10">FrontEnd Development</h2>
                         <hr className='my-5' />

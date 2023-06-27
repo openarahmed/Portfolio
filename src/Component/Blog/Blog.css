@@ -2,3 +2,8 @@
     display: grid;
     grid-template-columns: 2fr 6fr;
 }
+@media only screen and (max-width: 700px) {
+    .blogmain{
+        grid-template-columns: none;
+    }
+  }
